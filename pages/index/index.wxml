@@ -1,0 +1,25 @@
+<!-- logo -->
+<image src="//img.11467.com/cologo/logo/27677130.jpg" class="logo"></image>
+
+<!-- 滑动图片 -->
+<swiper autoplay indicator-dots circular interval='3000' class='upper'>
+  <block  wx:for="{{imgsUrls}}">
+    <swiper-item>
+     <image src="{{item}}" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 间隔 -->
+<view class='Space' />
+
+<!-- 首页新闻 -->
+
+  <view class='everyNews' bindtap='OpenPage'wx:for="{{News}}">
+    <view class='title'>
+      <text class='titleName'>{{item.title}}</text>
+      <text class='time'>{{item.time}}</text>
+    </view>
+      <image class='img'  src='{{item.img}}'></image>
+  </view>
+

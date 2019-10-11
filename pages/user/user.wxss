@@ -1,0 +1,30 @@
+page{
+  background-image: url("http://img1.912688.com/9280BCCBA24F5EDCAD184307D3756825.jpg?imageMogr2/gravity/NorthWest/crop/704x704/quality/90");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.login-box{
+    justify-content:center;
+}
+.username{
+  display: flex;
+  flex-direction: row;
+  font-size: 35rpx;
+  color: white;
+}
+.password{
+  display: flex;
+  flex-direction: row;
+  font-size: 35rpx;
+  color: white;
+  padding-top: 20rpx;
+}
+.password-box{
+  border: 1rpx solid gray;
+  border-width:thin;
+  margin-left: 32rpx;
+}
+.username-box{
+  border: 1rpx solid gray;
+  border-width:thin;
+}

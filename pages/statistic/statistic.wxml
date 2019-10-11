@@ -1,0 +1,16 @@
+<view>
+  <button class="show-btn-notice" bindtap="showNotice">
+    通断电通知
+  </button>
+
+ <button class="show-btn-form" bindtap="showForm">
+  统计报表
+ </button>
+
+<button class="show-btn-map" bindtap="showMap">
+  地图查看
+ </button>
+
+<switch bindchange="changeTap" class="Switch">开关</switch>
+
+</view>

@@ -1,0 +1,21 @@
+.show-btn-notice {
+  margin-top: 100rpx;
+  color: #22cc22;
+}
+
+.show-btn-form {
+  margin-top: 50rpx;
+  color: #22cc22;
+}
+
+.show-btn-map {
+  margin-top: 50rpx;
+  color: #22cc22;
+}
+
+.Switch{
+ margin-top: 50rpx;
+ color: #22cc22;
+ display: flex;
+ justify-content: center;
+}

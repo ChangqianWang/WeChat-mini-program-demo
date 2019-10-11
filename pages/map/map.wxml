@@ -1,0 +1,24 @@
+<view class="view1">
+      <map 
+        markers="{{map.markers}}" 
+        latitude="{{map.lat}}"
+        longtitude="{{map.lng}}"
+        wx:if="{{map.hasMarkers}}"
+        >
+      </map>
+
+  <view class="view2">
+    <cover-view>
+    经度：{{map.lat}}
+    </cover-view>
+    <cover-view>
+    纬度：{{map.lng}}
+    </cover-view>
+    <cover-view>
+    设备名称:{{map.name}}
+    </cover-view>
+    <cover-view>
+    设备情况：{{accuracy}}
+    </cover-view>
+  </view>
+</view>

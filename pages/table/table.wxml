@@ -1,0 +1,14 @@
+<view class='contain'>
+    <view class="table">
+      <view class="tr">
+          <view class="th th1">设备</view>
+          <view class="th th2">时间</view>
+          <view class="th th3">次数</view>
+      </view>
+      <view class="tr" wx:for="{{15}}">
+          <view class="td td1">设备1</view>
+          <view class="td td2">2019.10.5</view>
+          <view class="td td3">10</view>
+      </view>
+    </view>
+ </view>

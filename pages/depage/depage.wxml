@@ -1,0 +1,20 @@
+<!-- 标题 -->
+<view>
+  <view class='title'>
+    {{message.title}}
+  </view>
+  
+  
+  <!-- 作者和时间 -->
+  <view class='detail'>
+    <text style='widthFix'>{{message.authors}}</text>
+    <view class='space' />
+    <text >{{message.time}}</text>
+  </view>
+</view>
+
+
+<!-- 正文 -->
+<view class='content'>
+  {{message.content}}
+</view>
